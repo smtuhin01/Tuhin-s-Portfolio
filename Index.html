@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tuhin's Portfolio</title>
+    <style>
+        body {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            background-color: #eee1e1;
+            color: #2c1d1d;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        h1 {
+            background-color: #262803;
+            color: #f2e5e5;
+            padding: 20px;
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        h2 {
+            color: #2c2828;
+            margin-top: 10px;
+            font-size: 1.8rem;
+        }
+
+        hr {
+            border: 1px solid #555;
+            width: 80%;
+            margin: 20px auto;
+        }
+
+        h4 {
+            margin: 20px 0;
+            font-size: 1.5rem;
+        }
+
+        a {
+            text-decoration: none;
+            color: #242121;
+            transition: color 0.3s ease-in-out;
+        }
+
+        a:hover {
+            color: #ff7f50;
+        }
+
+        .nav-links {
+            margin-top: 20px;
+        }
+
+        .nav-links a {
+            margin: 0 15px;
+            padding: 10px 20px;
+            border: 2px solid #484242;
+            border-radius: 5px;
+            transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+            font-size: 1.2rem;
+        }
+
+        .nav-links a:hover {
+            background-color: rgb(204, 183, 189);
+            color: #0c0c0c;
+        }
+
+        .projects {
+            margin: 40px 0;
+        }
+
+        .project-card {
+            background-color: #262626;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+            margin-bottom: 30px;
+            max-width: 400px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .project-card img {
+            width: 100%;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .project-card:hover img {
+            transform: scale(1.05);
+        }
+
+        .project-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
+        }
+
+        .project-content {
+            padding: 15px;
+        }
+
+        .project-content h4 {
+            font-size: 1.4rem;
+            margin: 10px 0;
+            color: #ff7f50;
+        }
+
+        .project-content a {
+            color: #f5f5f5;
+            font-weight: bold;
+            font-size: 1rem;
+            display: inline-block;
+            margin-top: 10px;
+            transition: color 0.3s ease-in-out;
+        }
+
+        .project-content a:hover {
+            color: #ff7f50;
+        }
+
+        .footer {
+            background-color: #262626;
+            padding: 20px;
+            color: #f5f5f5;
+            font-size: 1rem;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hello ! </h1>   
+    <h1>I am  S M Tuhin</h1>
+
+    <div class="nav-links">
+        <a href="./public copy/about.html">About Myself</a>
+        <a href="./public copy/contact.html">Contact Me</a>
+    </div>
+
+    <hr />
+
+    <h2>These are my projects</h2>
+
+    <div class="projects">
+        <div class="project-card">
+            <img src="./assets copy/images/Project 1.png" alt="CFD Journal design photo"/>
+            <div class="project-content">
+                <h4>CDF Journal Design</h4>
+                <a href="./public copy/cfdjournal.html">View Project</a>
+            </div>
+        </div>
+
+        <div class="project-card">
+            <img src="./assets copy/images/project 2.png" alt="School app UI design"/>
+            <div class="project-content">
+                <h4>School App UI Design</h4>
+                <a href="./public copy/school project.html">View Project</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        &copy; 2024 S M Tuhin.
+    </div>
+</body>
+</html>
